@@ -11,9 +11,9 @@ The app is written in Kotlin, and I have also used SQLite to maintain the histor
 
 On opening the app, the user would be presented with a screen with options to set the rating range
 
-<img src="./app/Images/image3.jpeg" alt="drawing" width="200"/>
-
 <img src="./app/Images/image4.jpeg" alt="drawing" width="200"/>
+
+<img src="./app/Images/image3.jpeg" alt="drawing" width="200"/>
 
 Once valid range is set, the user may submit ratings.
 
