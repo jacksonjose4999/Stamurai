@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="70dp">
+    <LinearLayout
+        android:id="@+id/linearLayoutRecycler"
+        android:layout_width="match_parent"
+        android:background="@drawable/border_text_view"
+        android:layout_height="80dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:id="@+id/rating_recycler"
+            android:text="Rating" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:id="@+id/range_recycler"
+            android:text="Rating Range" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textAlignment="center"
+            android:id="@+id/date_recycler"
+            android:text="Date &amp; Time" />
+    </LinearLayout>
+
+</LinearLayout>
